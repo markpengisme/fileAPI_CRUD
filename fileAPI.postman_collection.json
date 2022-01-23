@@ -1,0 +1,293 @@
+{
+	"info": {
+		"_postman_id": "a9e59a05-1f0e-4d8a-80c2-49c8587288e6",
+		"name": "fileAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get file folder",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/file",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"file"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post test.txt",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://0.0.0.0:8000/file/root/usr/aabb/test.txt",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"file",
+						"root",
+						"usr",
+						"aabb",
+						"test.txt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post REAME.md",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://0.0.0.0:8000/file/root/usr/README.md",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"file",
+						"root",
+						"usr",
+						"README.md"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get root/usr folder",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/file/root/usr/",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"file",
+						"root",
+						"usr",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get test.txt",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/file/root/usr/aabb/test.txt",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"file",
+						"root",
+						"usr",
+						"aabb",
+						"test.txt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patch test.txt",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/file/root/usr/aabb/test.txt",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"file",
+						"root",
+						"usr",
+						"aabb",
+						"test.txt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get test.txt",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/file/root/usr/aabb/test.txt",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"file",
+						"root",
+						"usr",
+						"aabb",
+						"test.txt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete test.txt",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/file/root/usr/aabb/test.txt",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"file",
+						"root",
+						"usr",
+						"aabb",
+						"test.txt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get test.txt",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/file/root/usr/aabb/test.txt",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"file",
+						"root",
+						"usr",
+						"aabb",
+						"test.txt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get root/usr/aabb folder",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/file/root/usr/aabb/",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"file",
+						"root",
+						"usr",
+						"aabb",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
